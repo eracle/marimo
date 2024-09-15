@@ -56,6 +56,7 @@ __all__ = [
     "right",
     "running_in_notebook",
     "routes",
+    "save",
     "sidebar",
     "stat",
     "state",
@@ -118,5 +119,6 @@ from marimo._runtime.runtime import (
     refs,
 )
 from marimo._runtime.state import state
+from marimo._save import save
 from marimo._server.asgi import create_asgi_app
 from marimo._sql.sql import sql
